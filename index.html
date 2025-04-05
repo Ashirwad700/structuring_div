@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Structuring the Div</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header, footer { background: #333; color: white; padding: 1em; text-align: center; }
+    nav { margin-top: 10px; }
+    main { display: flex; }
+    .sidebar { width: 20%; background: #f4f4f4; padding: 1em; }
+    .content { flex: 1; padding: 1em; }
+    footer { margin-top: auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Web Layout</h1>
+    <nav>
+      <a href="#" style="color: white; margin: 0 10px;">Home</a>
+      <a href="#" style="color: white; margin: 0 10px;">About</a>
+    </nav>
+  </header>
+  <main>
+    <div class="sidebar">
+      <p>Sidebar content</p>
+    </div>
+    <div class="content">
+      <p>Main content area</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025 Ashirwad Jenamani</p>
+  </footer>
+</body>
+</html>
